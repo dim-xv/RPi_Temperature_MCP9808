@@ -13,7 +13,6 @@ sensor = MCP9808.MCP9808()
 #sensor = MCP9808.MCP9808(address=0x20, busnum=2)
 
 # Initialize communication with the sensor.
-
 sensor.begin()
 
 while True:
